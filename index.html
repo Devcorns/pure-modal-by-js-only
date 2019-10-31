@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modal opening</title>
+    <link href="assets/css/custom-modal.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="javascript:void(0)" data-target="modal1" data-target-css="">Open Modal</a>
+    <a href="javascript:void(0)" data-target="modal2" data-target-css="">Open Modal</a>
+    <div id="modal1" class="modal d-none">
+        <div class="modal-content">
+            <div class="modal-header ">
+                <h5 class="modal-title"> This is modal header <a class="close-modal" href="javascript:void(0)">x</a> </h5>
+            </div>
+            <div class="modal-body">
+                <p>
+                    This is modal body
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="modal2" class="modal d-none">
+        <div class="modal-content with-close-icon">
+            <div class="modal-header">
+                <h5 class="modal-title">This is modal header <a class="close-modal" href="javascript:void(0)">x</a></h5>
+            </div>
+            <div class="modal-body">
+                <p>
+                    This is modal body
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/custom-modal.js"></script>
+</body>
+</html>
